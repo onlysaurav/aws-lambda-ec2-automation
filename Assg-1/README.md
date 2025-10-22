@@ -25,7 +25,9 @@ Automatically start or stop EC2 instances depending on their `Action` tag:
 ### 2. IAM Role
 - Created IAM Role: `lambda-ec2-manager-role`
 - Attached `AmazonEC2FullAccess` policy.
-  <img width="1280" height="800" alt="Screenshot 2025-10-21 at 7 00 31 PM" src="https://github.com/user-attachments/assets/1fac271c-6ea6-44e3-ac60-f83280f2e78d" />
+  
+  <img width="1280" height="800" alt="Screenshot 2025-10-22 at 2 26 03 PM" src="https://github.com/user-attachments/assets/21b7893e-918d-4510-8028-0ca882d7b104" />
+
 
 ### 3. Lambda Function
 - Runtime: Python 3.x
@@ -38,8 +40,10 @@ Automatically start or stop EC2 instances depending on their `Action` tag:
 ### 4. Testing
 - Manually triggered Lambda.
 - Verified EC2 instance states updated correctly.
+  
+  <img width="1280" height="800" alt="Screenshot 2025-10-22 at 2 26 37 PM" src="https://github.com/user-attachments/assets/7d785e0a-0408-4b80-9ee0-7347dae04660" />
 
----
+   
 
 ## 📸 Screenshots
 Include screenshots:
@@ -60,3 +64,4 @@ Include screenshots:
 
 ## 👨‍💻 Author
 **Saurabh Tiwari**
+
