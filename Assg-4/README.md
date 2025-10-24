@@ -1,7 +1,3 @@
-Here’s your full **documentation-only README** in plain text (perfect for a GitHub project):
-
----
-
 # 🚨 Monitor and Alert High AWS Billing Using AWS Lambda, Boto3, and SNS
 
 This project demonstrates how to **automatically monitor AWS billing** and **send alerts via SNS** when your AWS spending exceeds a predefined threshold.
@@ -43,6 +39,8 @@ This project demonstrates how to **automatically monitor AWS billing** and **sen
    * Endpoint: your email address
    * Confirm the subscription via the email link you receive.
 
+   <img width="1280" height="800" alt="Screenshot 2025-10-23 at 10 08 19 AM" src="https://github.com/user-attachments/assets/802233e1-5973-48ef-88dc-cdf8a1672bd5" />
+
 ---
 
 ## 🔑 Step 2: Create IAM Role for Lambda
@@ -54,7 +52,7 @@ This project demonstrates how to **automatically monitor AWS billing** and **sen
    * `CloudWatchReadOnlyAccess`
    * `AmazonSNSFullAccess`
 4. Name the role: `LambdaBillingAlertRole`
-
+ 
 ---
 
 ## 🧠 Step 3: Create Lambda Function
@@ -66,6 +64,8 @@ This project demonstrates how to **automatically monitor AWS billing** and **sen
    * Runtime: **Python 3.12** (or 3.x)
    * Role: `LambdaBillingAlertRole`
 3. Paste your billing monitoring code and deploy it.
+
+   <img width="1280" height="800" alt="Screenshot 2025-10-23 at 10 22 08 AM" src="https://github.com/user-attachments/assets/6830a87b-0efd-4607-a314-306598aa8c9c" />
 
 ---
 
@@ -79,6 +79,9 @@ To automate daily checks:
 4. Target: **Lambda function → BillingMonitorFunction**
 5. Save and enable the rule.
 
+   <img width="1280" height="800" alt="Screenshot 2025-10-23 at 10 41 01 AM" src="https://github.com/user-attachments/assets/8dde70d3-0225-41dd-a61b-bc5d6228a017" />
+
+   
 ---
 
 ## 🧪 Step 5: Testing
@@ -97,6 +100,10 @@ To automate daily checks:
   }
 }
 ```
+  <img width="1280" height="800" alt="Screenshot 2025-10-23 at 10 43 44 AM" src="https://github.com/user-attachments/assets/32748413-77de-488f-97d6-835628bc385e" />
+
+  <img width="1280" height="800" alt="Screenshot 2025-10-23 at 10 43 31 AM" src="https://github.com/user-attachments/assets/ef80b00f-7679-4344-9ac7-c4696fba36c4" />
+
 
 5. Click **Test** — check the **Logs** and your **email** for alert.
 
