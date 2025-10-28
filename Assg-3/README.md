@@ -1,7 +1,3 @@
-Got it! Here’s your original doc, **cleaned up only for formatting and minor fixes**, keeping the structure and wording almost exactly the same:
-
----
-
 # Auto-Tagging EC2 Instances on Launch
 
 This project demonstrates how to automatically tag EC2 instances when they are launched using **AWS Lambda** and **EventBridge (CloudWatch Events)**.
